@@ -19,7 +19,7 @@ export default function NavbarComponent() {
             href="#page-top"
             style={{ color: "#1369ba" }}
           >
-            PentaExeve
+            PentaExeved
           </a>
           <button
             data-toggle="collapse"
