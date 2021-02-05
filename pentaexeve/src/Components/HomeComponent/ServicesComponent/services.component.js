@@ -3,7 +3,7 @@ import React from "react";
 export default function ServicesComponent() {
   return (
     <div>
-      <section id="services">
+      {/* <section id="services"> */}
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center ">
@@ -75,7 +75,7 @@ export default function ServicesComponent() {
             </div>
           </div>
         </div>
-      </section>
+      {/* </section> */}
     </div>
   );
 }
