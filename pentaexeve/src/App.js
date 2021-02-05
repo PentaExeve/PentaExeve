@@ -1,9 +1,9 @@
-import "./App.css";
+import MainComponent from "./Components/MainComponent/main.component";
 
 function App() {
   return (
-    <div className="App">
-      <p>App</p>
+    <div>
+      <MainComponent />
     </div>
   );
 }
