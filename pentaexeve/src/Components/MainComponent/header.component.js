@@ -11,6 +11,7 @@ export default function HeaderComponent() {
         class="masthead text-center text-white d-flex"
         style={{
           backgroundImage: "url(" + HeaderImage + ")",
+          height:'103vh'
         }}
       >
         <div class="container my-auto">
@@ -33,7 +34,7 @@ export default function HeaderComponent() {
                   PentaExeve
                 </strong>
               </h1>
-              WE CREATE YOUR IMAGINE
+             <span style={{backgroundColor:'black'}}> WE CREATE YOUR IMAGINE</span>
               <hr />
             </div>
           </div>

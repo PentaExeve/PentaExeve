@@ -4,10 +4,10 @@ import "../../../App.css";
 export default function PortfolioComponent() {
   return (
     <div>
-      <section id="portfolio" class="p-0 SectionComponent">
+      {/* <section id="portfolio" class="p-0 SectionComponent"> */}
         <div class="container-fluid p-0 HeaderTextSection">
           <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="container text-center">
               <h2 class="section-heading">Our Products</h2>
               <hr class="my-4" />
             </div>
@@ -105,8 +105,8 @@ export default function PortfolioComponent() {
             </div>
           </div>
         </div>
-      </section>
-      <section class="bg-dark text-white">
+      {/* </section> */}
+      {/* // <section class="bg-dark text-white"> */}
         <div class="container text-center">
           <h2 class="mb-4">Lorem Ipsum!</h2>
           <a
@@ -120,7 +120,7 @@ export default function PortfolioComponent() {
             Download Now!
           </a>
         </div>
-      </section>
+      {/* </section> */}
     </div>
   );
 }
