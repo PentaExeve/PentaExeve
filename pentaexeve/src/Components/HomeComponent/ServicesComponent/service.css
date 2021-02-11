@@ -1,0 +1,11 @@
+.service-class {
+  background-image: linear-gradient(
+    to right top,
+    #1c66d5,
+    #0b52ca,
+    #083dbd,
+    #1226af,
+    #1d009f
+  );
+  padding-bottom: 5%;
+}

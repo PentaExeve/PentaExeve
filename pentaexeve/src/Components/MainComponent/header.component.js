@@ -23,7 +23,7 @@ export default function HeaderComponent() {
             }}
           >
             <div class="col-lg-10 mx-auto">
-              <h1 class="text-uppercase">
+              <h1 class="text-uppercase shadow">
                 {/* <img src={Logo} style={{ width: "300px" }} /> */}
                 <br />
                 <strong
@@ -49,11 +49,11 @@ export default function HeaderComponent() {
               <Typical
                 steps={[
                   " Web App Development",
-                  1000,
+                  1300,
                   " Desktop App Development",
-                  1000,
+                  1300,
                   " Mobile Development",
-                  1000,
+                  1300,
                 ]}
                 loop={Infinity}
                 wrapper="b"
