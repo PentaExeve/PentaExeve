@@ -15,7 +15,7 @@ export default function HomeComponent() {
      <ServicesComponent />
      </section>
      <section>
-      <PortFolios/>
+      <PortfolioComponent/>
      </section>
     </div>
   );
