@@ -9,3 +9,14 @@
   border-radius: 20px;
   padding: 5px;
 }
+
+.colCardAbout {
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+  padding: 10px;
+}
+
+.colCardAbout:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

@@ -37,9 +37,9 @@ export default function AboutComponent() {
         </div>
         <div className="container mt-5">
           <div className="row mt-5">
-            <div className="col-md-4 col-sm-12  justify-content-center">
+            <div className="col-md-4 col-sm-12  justify-content-center colCardAbout">
               <div
-                class="card"
+                class="card "
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="800"
@@ -51,9 +51,9 @@ export default function AboutComponent() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-sm-12  justify-content-center">
+            <div className="col-md-4 col-sm-12  justify-content-center colCardAbout">
               <div
-                class="card"
+                class="card "
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="800"
@@ -65,9 +65,9 @@ export default function AboutComponent() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-sm-12  justify-content-center">
+            <div className="col-md-4 col-sm-12  justify-content-center colCardAbout">
               <div
-                class="card"
+                class="card "
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="800"
