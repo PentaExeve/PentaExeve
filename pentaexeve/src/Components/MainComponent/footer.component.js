@@ -1,17 +1,35 @@
 import React from "react";
 
+import "../../App.css";
+
 export default function FooterComponent() {
   return (
     <div>
       <section>
-        <div className="container">
+        <div className="container conatctForm">
+          <h3 className="text-center">Send Us a Message</h3>
           <form>
             <label>Name :</label>
-            <input class="form-control " placeholder="Email" required />
+            <input
+              type="text"
+              class="form-control "
+              placeholder="Enter Your Name"
+              required
+            />
             <label className="mt-2">Email :</label>
-            <input class="form-control " placeholder="Email" required />
+            <input
+              type="email"
+              class="form-control "
+              placeholder="Enter Your Email"
+              required
+            />
             <label className="mt-2">Message :</label>
-            <input class="form-control " placeholder="Email" required />
+            <input
+              type="text"
+              class="form-control "
+              placeholder="Enter Your Message"
+              required
+            />
             <button
               className="btn btn-primary mt-3 "
               style={{ width: "-webkit-fill-available" }}

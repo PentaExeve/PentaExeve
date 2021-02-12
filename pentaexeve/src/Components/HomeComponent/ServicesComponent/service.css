@@ -1,4 +1,4 @@
-.service-class {
+/* .service-class {
   background-image: linear-gradient(
     to right top,
     #1c66d5,
@@ -8,4 +8,15 @@
     #1d009f
   );
   padding-bottom: 5%;
+} */
+
+.textServices {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.serviceSecondRow {
+  background-image: url("./banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

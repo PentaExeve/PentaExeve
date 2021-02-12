@@ -25,3 +25,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.conatctForm {
+  background-color: rgba(223, 223, 223, 0.8);
+  padding: 5%;
+  color: rgb(19, 19, 19);
+  -webkit-box-shadow: 0px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}

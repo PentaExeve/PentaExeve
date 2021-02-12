@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo_name from './logo_name.png';
-
+import logo_name from "./logo_name.png";
 
 export default function NavbarComponent() {
   return (
@@ -16,7 +15,11 @@ export default function NavbarComponent() {
         }}
       >
         <div class="container" style={{ padding: "2px" }}>
-          <img href="#page-top"  style={{width:'16%',cursor:'pointer'}} src={logo_name} />
+          <img
+            href="#page-top"
+            style={{ width: "16%", cursor: "pointer" }}
+            src={logo_name}
+          />
           {/* <a
             class="navbar-brand js-scroll-trigger"
             href="#page-top"
